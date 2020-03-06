@@ -8,6 +8,7 @@ hamburger.addEventListener('click', () => {
 
 // modal 
 const openModalButtons = document.querySelectorAll(".open-modal");
+const closeModalButtons = document.querySelectorAll(".close-modal");
 const modal = document.querySelector(".modal");
 
 openModalButtons.forEach(button => {
@@ -16,4 +17,9 @@ openModalButtons.forEach(button => {
     })
 });
 
+closeModalButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        modal.classList.remove('mask-formulario--ativo')
+    })
+});
 
