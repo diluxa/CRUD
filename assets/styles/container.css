@@ -1,0 +1,11 @@
+@media screen and (min-width: 900px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        grid-template-areas:
+        "header header header header header header header header "
+        "main main main main main main main main "
+        "footer footer footer footer footer footer footer footer "
+        ;
+    }
+}

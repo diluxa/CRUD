@@ -1,0 +1,16 @@
+.formulario {
+    width: 290px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    height: auto;
+    z-index: 1;
+    height: 95vh;
+}
+/*  */
+@media screen and (min-width: 600px) {
+    .formulario {
+        height: 700px;
+        width: 545px;
+    }
+}

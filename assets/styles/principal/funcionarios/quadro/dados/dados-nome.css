@@ -1,0 +1,9 @@
+.dados__nome {
+    font-weight: bold;
+}
+/*  */
+@media screen and (min-width: 900px) {
+    .dados__nome {
+        font-weight: initial;
+    }
+}
