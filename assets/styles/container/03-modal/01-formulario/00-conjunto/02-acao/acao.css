@@ -1,5 +1,5 @@
-.formulario__btns {
-    margin-top: 10px;
+.acao {
+    margin-top: 3px;
     display: flex;
     justify-content: space-between;
 }

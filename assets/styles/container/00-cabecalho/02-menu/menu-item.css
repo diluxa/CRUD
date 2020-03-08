@@ -1,9 +1,9 @@
-.lista__item {
+.menu__item {
     margin: 2rem 0;
 }
 /*  */
 @media screen and (min-width: 900px) {
-    .lista__item {
+    .menu__item {
         margin: 0 10px;
     }
 }

@@ -3,6 +3,7 @@
 
 :root {
 	max-width: 1200px;
+	height: 100%;
 	margin: 0 auto;
 }
 
@@ -25,8 +26,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	box-sizing: border-box;
 	font-family: 'Roboto';
 }
+
 body {
 	line-height: 1;
+	height: 100%;
 }
 ol, ul {
 	list-style: none;

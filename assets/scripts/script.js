@@ -1,9 +1,9 @@
 // menu
 const hamburger = document.querySelector(".hamburger");
-const lista = document.querySelector(".lista");
+const lista = document.querySelector(".menu__lista");
 
 hamburger.addEventListener('click', () => {
-    lista.classList.toggle("open")
+    lista.classList.toggle("menu__lista--open")
 });
 
 // modal 
