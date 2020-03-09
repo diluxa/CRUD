@@ -1,9 +1,10 @@
 .etiquetas {
     display: none;
 }
+/*  */
 @media screen and (min-width: 900px) {
     .etiquetas {
-        padding-top: 12px;/* espacamento */
+        padding: 12px 20px;/* espacamento */
         display: grid;/* grid */
         grid-template-columns: 80px 100px 90px 90px 170px 130px 110px 100px;/* grid */
     }

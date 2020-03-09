@@ -1,10 +1,6 @@
-.quadro {
-    padding: 10px 20px;/* espacamento */
-    display: flex;/* flex */
-    background-color: #F4F4F4;/* modificador */
-}
 @media screen and (min-width: 900px) {
     .quadro {
-        justify-content: center;
+        display: flex;/* flex */
+        flex-direction: column;/* flex */
     }
 }

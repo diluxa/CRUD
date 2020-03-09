@@ -1,3 +1,9 @@
 .conjunto {
-    padding: 10px;
+    padding: 10px 20px;
+}
+/*  */
+@media screen and (min-width: 600px) {
+    .conjunto {
+        padding: 20px;
+    }
 }

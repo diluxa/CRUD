@@ -1,3 +1,8 @@
+.rodape {
+    padding: 5px 0;/* espacamento */
+    background-color: #000;/* modificador */
+}
+/*  */
 @media screen and (min-width: 900px) {
     .rodape {
         grid-area: footer;

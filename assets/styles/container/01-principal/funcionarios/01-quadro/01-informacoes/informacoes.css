@@ -1,6 +1,14 @@
+.informacoes {
+    padding: 10px 20px;/* espacamento */
+    display: flex;/* flex */
+    background-color: #F4F4F4;/* modificador */
+}
+.informacoes:nth-child(odd) {
+    background-color: #FFF;/* modificador */
+}
+/*  */
 @media screen and (min-width: 900px) {
     .informacoes {
-        display: flex;/* flex */
-        flex-direction: column;/* flex */
+        justify-content: center;
     }
 }

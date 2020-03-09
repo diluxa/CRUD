@@ -4,8 +4,8 @@
     margin: 20px;/* espacamento */
     border: none;/* borda */
     border-radius: 100%;/* borda */
-    position: absolute;/* posicao */
-    bottom: 0;/* posicao */
+    position: fixed;/* posicao */
+    bottom: 15px;/* posicao */
     right: 0;/* posicao */
     background-image: url(../../../../../images/add-icon.svg);/* img */
     background-position: center;/* img */
