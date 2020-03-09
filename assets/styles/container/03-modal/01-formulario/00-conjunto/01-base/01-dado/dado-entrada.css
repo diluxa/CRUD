@@ -1,0 +1,18 @@
+.dado__entrada {
+    height: 25px;/* tamanho */
+    width: 100%;/* tamanho */
+    margin: 7px 0;/* espacamento */
+    border-radius: 4px;/* borda */
+    border: 1px solid #C2C2C2;/* borda */
+    text-indent: 10px;/* modificador */
+}
+::placeholder {
+    left: 10px;/* posicao */
+    color: #9D9D9D;/* modificador */
+}
+/*  */
+@media screen and (min-width: 600px) {
+    .dado__entrada {
+        height: 40px;
+    }
+}

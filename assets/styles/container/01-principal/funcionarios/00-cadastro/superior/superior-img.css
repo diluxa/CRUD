@@ -1,0 +1,7 @@
+.superior__img {
+    height: 50px;/* tamanho */
+    width: 50px;/* tamanho */
+    background-image: url(../../../../../../images/add-icon.svg);/* img */
+    background-position: center;/* img */
+    background-repeat: no-repeat;/* img */
+}

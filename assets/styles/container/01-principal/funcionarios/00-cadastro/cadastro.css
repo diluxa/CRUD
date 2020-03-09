@@ -1,0 +1,12 @@
+.cadastro {
+    padding: 20px 20px;
+}
+/*  */
+@media screen and (min-width: 900px) {
+    .cadastro {
+        padding: 30px 20px;/* espacamento */
+        display: flex;/* flex */
+        align-items: center;/* flex */
+        justify-content: space-between;/* flex */
+    }
+}

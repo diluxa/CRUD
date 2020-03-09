@@ -3,23 +3,29 @@ const hamburger = document.querySelector(".hamburger");
 const lista = document.querySelector(".menu__lista");
 
 hamburger.addEventListener('click', () => {
-    lista.classList.toggle("menu__lista--open")
+    lista.classList.toggle("menu__lista--abre")
 });
 
 // modal 
-const openModalButtons = document.querySelectorAll(".open-modal");
-const closeModalButtons = document.querySelectorAll(".close-modal");
+const abreModalBtns = document.querySelectorAll(".abre-modal");
+const fechaModalBtns = document.querySelectorAll(".fecha-modal");
 const modal = document.querySelector(".modal");
+const mask = document.querySelector(".mask");
+const form = document.querySelector(".formulario");
 
-openModalButtons.forEach(button => {
+abreModalBtns.forEach(button => {
     button.addEventListener('click', () => {
-        modal.classList.add('mask-formulario--ativo')
+        mask.style.transform = "scale(1)"
+        form.style.transform = "scale(1)"
+        modal.style.zIndex = "1";
     })
 });
 
-closeModalButtons.forEach(button => {
+fechaModalBtns.forEach(button => {
     button.addEventListener('click', () => {
-        modal.classList.remove('mask-formulario--ativo')
+        mask.style.transform = "scale(0)"
+        form.style.transform = "scale(0)"
+        modal.style.zIndex = "-1";
     })
 });
 

@@ -1,15 +1,15 @@
 .cabecalho {
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    height: 70px;
-    position: relative;
+    height: 70px;/* tamanho */
+    padding: 0 20px;/* espacamento */
+    display: flex;/* flex */
+    align-items: center;/* flex */
+    position: relative;/* posicao */
+    background-color: #000;/* modificador */
 }
 /*  */
 @media screen and (min-width: 900px) {
     .cabecalho {
-        grid-area: header;
-        height: 10vh;
+        height: 10vh;/* tamanho */
+        grid-area: header;/* grid */
     }
 }

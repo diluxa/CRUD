@@ -1,0 +1,21 @@
+.cadastro__inferior {
+    height: 58px;/* tamanho */
+    width: 58px;/* tamanho */
+    margin: 20px;/* espacamento */
+    border: none;/* borda */
+    border-radius: 100%;/* borda */
+    position: absolute;/* posicao */
+    bottom: 0;/* posicao */
+    right: 0;/* posicao */
+    background-image: url(../../../../../images/add-icon.svg);/* img */
+    background-position: center;/* img */
+    background-repeat: no-repeat;/* img */
+    cursor: pointer;/* propriedade */
+    background-color: #1AE2BE;/* modificador */
+}
+/*  */
+@media screen and (min-width: 900px) {
+    .cadastro__inferior {
+        display: none;
+    }
+}

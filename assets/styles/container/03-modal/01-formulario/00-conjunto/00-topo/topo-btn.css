@@ -1,9 +1,9 @@
 .topo__btn {
-    border: none;
-    margin: 0;
-    padding: 0;
-    width: initial;
-    background-color: initial;
-    font-size: 2rem;
-    cursor: pointer;
+    width: initial;/* tamanho */
+    margin: 0;/* espacamento */
+    padding: 0;/* espacamento */
+    border: none;/* borda */
+    cursor: pointer;/* propriedade */
+    background-color: initial;/* modificador */
+    font-size: 2rem;/* modificador */
 }

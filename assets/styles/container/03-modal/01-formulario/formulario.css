@@ -1,18 +1,16 @@
 .formulario {
-    width: 290px;
-    background-color: #fff;
-    border-radius: 8px;
-    /* height: 90vh; */
-    z-index: 1;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    /* border: 1px solid red; */
+    width: 290px;/* tamanho */
+    border-radius: 8px;/* borda */
+    display: flex;/* flex */
+    align-items: center;/* flex */
+    transition: transform 100ms ease-in-out;/* propriedade */
+    z-index: 1;/* propriedade */
+    background-color: #fff;/* modificador */
+    transform: scale(0);/* modificador */
 }
 /*  */
 @media screen and (min-width: 600px) {
     .formulario {
-        height: 700px;
         width: 545px;
     }
 }

@@ -1,0 +1,11 @@
+.dados__edit {
+    height: 30px;/* tamanho */
+    width: 30px;/* tamanho */
+    border: none;/* borda */
+    border-radius: 100%;/* borda */
+    cursor: pointer;/* propriedade */
+    background-image: url(../../../../../../../images/lapis.svg);/* img */
+    background-position: center;/* img */
+    background-repeat: no-repeat;/* img */
+    background-color: #7C95D5;/* modificador */
+}

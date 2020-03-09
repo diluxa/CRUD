@@ -1,6 +1,15 @@
 .acao__btn {
-    width: 120px;
-    padding: 10px 0;
-    border-radius: 100px;
-    border: none;
+    width: 120px;/* tamanho */
+    margin-top: 10px;/* espacamento */
+    padding: 10px 0;/* espacamento */
+    border: none;/* borda */
+    border-radius: 100px;/* borda */
+}
+/*  */
+@media screen and (min-width: 600px) {
+    .acao__btn {
+        width: 160px;/* tamanho */
+        margin-top: 15px;/* espacamento */
+        padding: 20px 0;/* espacamento */
+    }
 }

@@ -1,0 +1,7 @@
+.alteracoes__btn {
+    height: 34px;/* tamanho */
+    width: 34px;/* tamanho */
+    border: none;/* borda */
+    border-radius: 100%;/* borda */
+    cursor: pointer;/* propriedade */
+}

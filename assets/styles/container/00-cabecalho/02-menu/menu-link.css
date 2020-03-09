@@ -1,4 +1,4 @@
 .menu__link {
-    text-decoration: none;
-    color: #fff;
+    color: #fff;/* propriedade */
+    text-decoration: none;/* propriedade */
 }

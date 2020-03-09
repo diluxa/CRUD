@@ -1,15 +1,3 @@
 .conjunto {
-    /* display: flex; */
-    /* flex-direction: column; */
-    transform: scale(1);
     padding: 10px;
 }
-/*  */
-/* @media screen and (min-height: 650px) {
-    .conjunto {
-        transform: scale(1);
-        border: 1px solid red;
-        padding: 0 10px;
-        height: 100%;
-    }
-} */

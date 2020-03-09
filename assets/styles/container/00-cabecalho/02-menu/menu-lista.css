@@ -1,32 +1,32 @@
 .menu__lista {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #000;
-    height: 500px;
-    width: 100vw;
-    position: absolute;
-    left: 0;
-    top: 70px;
-    z-index: 1;
-    padding-top: 5vh;
-    font-size: 24px;
-    clip-path: circle(0px at 100% -25%);
-    transition: clip-path 1s ease-in-out;
+    height: 500px;/* tamanho */
+    width: 100vw;/* tamanho */
+    padding-top: 5vh;/* espacamento */
+    display: flex;/* flex */
+    flex-direction: column;/* flex */
+    align-items: center;/* flex */
+    position: absolute;/* posicao */
+    left: 0;/* posicao */
+    top: 70px;/* posicao */
+    transition: clip-path 1s ease-in-out;/* propriedade */
+    z-index: 1;/* propriedade */
+    background-color: #000;/* modificador */
+    clip-path: circle(0px at 100% -25%);/* modificador */
+    font-size: 24px;/* modificador */
 }
-.menu__lista--open {
+.menu__lista--abre {
     clip-path: circle(1500px at 100% -20%);
 }
 /*  */
 @media screen and (min-width: 900px) {
     .menu__lista {
-        clip-path: initial;
-        flex-direction: row;
-        height: initial;
-        padding: initial;
-        position: initial;
-        width: 100%;
-        font-size: 16px;
-        margin-left: auto;
+        height: initial;/* tamanho */
+        width: 100%;/* tamanho */
+        margin-left: auto;/* espacamento */
+        padding: initial;/* espacamento */
+        flex-direction: row;/* flex */
+        position: initial;/* posicao */
+        clip-path: initial;/* modificador */
+        font-size: 16px;/* modificador */
     }
 }

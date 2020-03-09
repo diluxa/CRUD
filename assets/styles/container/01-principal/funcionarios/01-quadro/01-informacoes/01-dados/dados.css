@@ -1,0 +1,15 @@
+@media screen and (min-width: 900px) {
+    .dados {
+        display: grid;/* grid */
+        grid-template-columns: 80px 100px 90px 90px 170px 130px 110px 100px;/* grid */
+        align-items: center;/* grid */
+        font-size: 0.9rem;/* modificador */
+    }
+}
+/*  */
+@media screen and (min-width: 1200px) {
+    .dados {
+        grid-template-columns: 100px 200px 150px 90px 200px 160px 150px 100px;/* grid */
+        font-size: 1rem;/* modificador */
+    }
+}

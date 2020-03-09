@@ -1,5 +1,12 @@
 .acao {
-    margin-top: 3px;
-    display: flex;
-    justify-content: space-between;
+    margin-top: 3px;/* espacamento */
+    border-top: 1px solid #DEDEDE;/* borda */
+    display: flex;/* flex */
+    justify-content: space-between;/* flex */
+}
+/*  */
+@media screen and (min-width: 600px) {
+    .acao {
+        margin-top: 8px;
+    }
 }

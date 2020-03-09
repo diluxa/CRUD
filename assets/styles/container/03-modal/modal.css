@@ -1,9 +1,11 @@
 .modal {
-    position: absolute;
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100%;/* tamanho */
+    width: 100%;/* tamanho */
+    position: absolute;/* posicao */
+    top: 0;/* posicao */
+    left: 0;/* posicao */
+    display: flex;/* flex */
+    align-items: center;/* flex */
+    justify-content: center;/* flex */
+    z-index: -1;/* propriedade */
 }

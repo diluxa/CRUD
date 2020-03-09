@@ -1,5 +1,5 @@
 .hamburger__line {
-    border: 2px solid #fff;
-    width: 30px;
-    margin-bottom: 5px;
+    width: 30px;/* tamanho */
+    margin-bottom: 5px;/* espacamento */
+    border: 2px solid #fff;/* borda */
 }

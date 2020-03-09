@@ -1,0 +1,12 @@
+.arquivo__img {
+    height: 26px;/* tamanho */
+    width: 26px;/* tamanho */
+    margin-top: 5px;/* espacamento */
+    background-image: url(../../../../../../../images/img-file.svg);/* img */
+}
+/*  */
+@media screen and (min-width: 600px) {
+    .arquivo__img {
+        margin-top: 15px;
+    }
+}

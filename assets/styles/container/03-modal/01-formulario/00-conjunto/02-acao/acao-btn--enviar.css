@@ -1,6 +1,6 @@
 .acao__btn--enviar {
-    background-color: #1AE2BE;
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
+    cursor: pointer;/* propriedade */
+    background-color: #1AE2BE;/* modificador */
+    color: #fff;/* modificador */
+    font-weight: bold;/* modificador */
 }

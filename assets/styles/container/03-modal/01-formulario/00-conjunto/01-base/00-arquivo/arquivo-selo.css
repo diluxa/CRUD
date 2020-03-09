@@ -1,0 +1,17 @@
+.arquivo__selo {
+    margin-bottom: 10px;/* espacamento */
+    padding: 10px 0;/* espacamento */
+    border-radius: 4px;/* borda */
+    display: flex;/* flex */
+    flex-direction: column;/* flex */
+    align-items: center;/* flex */
+    cursor: pointer;/* propriedade */
+    font-size: 16px;/* modificador */
+    background-color: #E5E5E5;/* modificador */
+}
+/*  */
+@media screen and (min-width: 600px) {
+    .arquivo__selo {
+        padding: 30px 0;
+    }
+}

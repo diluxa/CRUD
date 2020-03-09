@@ -1,0 +1,12 @@
+.alteracoes {
+    margin-right: 20px;/* espacamento */
+    display: flex;/* flex */
+    flex-direction: column;/* flex */
+    align-items: center;/* flex */
+}
+/*  */
+@media screen and (min-width: 900px) {
+    .alteracoes {
+        display: none;
+    }
+}
