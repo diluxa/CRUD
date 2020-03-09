@@ -12,12 +12,14 @@ const fechaModalBtns = document.querySelectorAll(".fecha-modal");
 const modal = document.querySelector(".modal");
 const mask = document.querySelector(".mask");
 const form = document.querySelector(".formulario");
+const body = document.body;
 
 abreModalBtns.forEach(button => {
     button.addEventListener('click', () => {
         mask.style.transform = "scale(1)"
         form.style.transform = "scale(1)"
-        modal.style.zIndex = "1";
+        modal.style.zIndex = "1"
+        body.style.overflow = "hidden";
     })
 });
 
