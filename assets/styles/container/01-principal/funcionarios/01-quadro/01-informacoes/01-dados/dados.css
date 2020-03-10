@@ -1,7 +1,7 @@
 @media screen and (min-width: 900px) {
     .dados {
         display: grid;/* grid */
-        grid-template-columns: 80px 100px 90px 90px 170px 130px 110px 100px;/* grid */
+        grid-template-columns: 60px 140px 110px 80px 170px 120px 90px 100px;/* grid */
         align-items: center;/* grid */
         font-size: 0.9rem;/* modificador */
     }

@@ -28,6 +28,7 @@ fechaModalBtns.forEach(button => {
         mask.style.transform = "scale(0)"
         form.style.transform = "scale(0)"
         modal.style.zIndex = "-1";
+        body.style.overflow = "initial";
     })
 });
 
